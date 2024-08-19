@@ -1,2 +1,8 @@
 # Sistema_ADM
- Web site com sistema Administrativo em HTML, CSS, Bootstrap, PHP e Banco de Dados MySQL
+# Site com um sistema Administrativo.
+
+- Site ADM em HTML CSS JavaScript PHP e MySQL.
+- Banco de dados.
+- Sistema de Cadastro.
+- Sistema de login e senha.
+- Inclui um tema escuro e claro.

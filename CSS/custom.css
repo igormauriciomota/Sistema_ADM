@@ -77,6 +77,10 @@ body {
         z-index: 999;
     }
 
+    #menu-icon.active::before{
+        content: "\f00d";
+    }
+
     .navbar .menu{
         background-color: var(--main-color);
         position: fixed;
@@ -86,9 +90,10 @@ body {
         top: 0;
         text-align: center;
         padding-top: 80px;
+        transition: all 0.3s ease;
     }
 
-    #menu-site {
+    #menu-site.active {
         left: 0;
     }
 

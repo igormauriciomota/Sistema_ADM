@@ -17,7 +17,7 @@
 
 body {
     background-color: var(--main-color);
-    color: var(--site-color);
+    color: var(--site-color); 
     
 }
 
@@ -107,3 +107,70 @@ body {
         font-size: 25px;
     }
 }
+/* Fim Navegação */
+
+/* Seção */
+
+section{
+    padding: 50px 0;
+
+}
+
+@media (max-width: 690px){
+    section{
+        padding: 20px 0;
+    }
+}
+
+.top{
+    color: var(--site-color);
+    display: flex;
+    background: url("../images/3.png") no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.top .max-width {
+    width: 100%;
+    display: flex;
+}
+
+.top .top-content .text-1{
+    font-size: 25px;
+    color: var(--first-color);
+}
+
+.top .top-content .text-2{
+    font-size: 55px;
+    font-weight: 400;
+    margin-left: -3px;
+    color: var(--first-color);
+}
+
+.top .top-content .text-3{
+    font-size: 32px;
+    margin: 5px 0;
+    color: var(--first-color);
+}
+
+.top .top-content a {
+    display: inline-block;
+    background: var(--first-color);
+    color: var(--site-color);
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 300;
+    border-radius: 6px;
+    border: 2px solid var(--site-color);
+    transition: all 0.3s ease;
+}
+
+.top .top-content a:hover{
+    color: var(--first-color);
+    background: none;
+}
+
